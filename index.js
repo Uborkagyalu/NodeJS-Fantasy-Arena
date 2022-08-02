@@ -33,7 +33,7 @@ const createNewCharacter = (characterType, characterName, weapon) => {
     }
 }
 
-const contender1 = createNewCharacter("Warrior", "Béla", "Battle_Axe");
+const contender1 = createNewCharacter("Priest", "Béla", "Sword");
 const contender2 = createNewCharacter("Warrior", "Ákos", "Sword");
 
 const tournament = new Arena;
